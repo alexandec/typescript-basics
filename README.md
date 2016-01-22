@@ -18,7 +18,9 @@ command line.
 
     tsc myfile.ts
     
-0. Now you have myfile.js, which will run in any browser
+0. Now you have myfile.js, which will run in any browser or with node:
+
+    node myfile.js
 
 ## Type Annotations
 When you define a variable, you can define a type, like string, number, or
@@ -108,4 +110,4 @@ The Typescript compiler will inform you that you are violating the interface.
 Similarly, if you try to access the private birds member of the object, you
 will get an error.
 
-That's it for this basic introduction to TypeScript. Hope it was helpful.
+That's it for this basic introduction to TypeScript. Hope it was helpful!

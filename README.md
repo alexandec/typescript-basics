@@ -1,20 +1,23 @@
 # TypeScript Basics
 
 TypeScript allows you to write statically-typed JavaScript code. Here I'll
-describe how to install, compile, and perform basic type and object definitions
+describe how to install, compile, and create basic type and object definitions
 using TypeScript.
 
 -- Chris Alexander
 
 ## Installation
-0. npm install -g typescript
+    npm install -g typescript
 
 A global install (-g) allows you to run the TypeScript compiler from the
 command line.
 
 ## Compilation
 0. Create a file with the ".ts" extension. We'll call it "myfile.ts".
-0. Compile your .ts file: tsc myfile.ts
+0. Compile your .ts file:
+
+    tsc myfile.ts
+    
 0. Now you have myfile.js, which will run in any browser
 
 ## Type Annotations

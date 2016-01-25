@@ -67,9 +67,10 @@ With TypeScript we can define an interface to enforce the structure of an object
       speed: number;
     }
 
-Here we're asserting that an object of type Bird must contain two properties:
-a name of type string, and a speed of type number. Next let's define a class to
-manage a list of birds:
+Here we're asserting that an object of type Bird must contain exactly two properties:
+a name of type string, and a speed of type number. Creating an object using this
+interface, but including additional properties, or omitting a property, will result
+in an error. Next let's define a class to manage a list of birds:
 
     class Flock {
       private birds: Bird[];
